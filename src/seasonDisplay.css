@@ -1,0 +1,44 @@
+.icon-left {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+}
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+
+.winter {
+    background-image: URL(https://i0.wp.com/www.cbn.co.za/wp-content/uploads/2019/06/snow-.jpg?resize=660%2C370&ssl=1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summer {
+    background-image: URL(https://images.pexels.com/photos/414105/pexels-photo-414105.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+
+.season-display.winter i {
+    color: blue;
+}
+
+.season-display.summer i {
+    color: red;
+
+}
